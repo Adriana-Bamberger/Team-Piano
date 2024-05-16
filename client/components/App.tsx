@@ -1,5 +1,4 @@
 import ImgCard from './ImgCard.tsx'
-import { State } from 'react-dom/client'
 
 function App() {
   return (

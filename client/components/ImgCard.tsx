@@ -1,17 +1,25 @@
+import { Link } from 'react-router-dom'
+
 function ImgCard() {
   return (
     <>
       <div className="flexbox-container">
         <div className="flexbox-item">
-          <img src="./images/pikachu.png" />
+          <Link to="pokemon/pikachu">
+            <img src="./images/pikachu.png" alt="Pikachu" />
+          </Link>
         </div>
 
         <div className="flexbox-item">
-          <img src="./images/snorlax.png" />
+          <Link to="pokemon/snorlax">
+            <img src="./images/snorlax.png" />
+          </Link>
         </div>
 
         <div className="flexbox-item">
-          <img src="./images/eevee.png" />
+          <Link to="pokemon/eevee">
+            <img src="./images/eevee.png" />
+          </Link>
         </div>
       </div>
     </>
