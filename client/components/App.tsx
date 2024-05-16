@@ -1,8 +1,15 @@
+import ImgCard from './ImgCard.tsx'
+import { State } from 'react-dom/client'
+
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
+    <div
+      className="app
+    "
+    >
+      <h1>PokeMenu</h1>
+      <p>This is the start of our awesome website</p>
+      <ImgCard />
     </div>
   )
 }
