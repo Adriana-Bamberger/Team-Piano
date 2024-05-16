@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+}
+
+img {
+  width: 75%;
+  height: auto;
+  margin: 2em;
+  border-radius: 3%;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.flexbox-item {
+  background: none;
+  padding: 0;
+}
+
+card-button {
+  background: none;
+  padding: 0;
+
+  padding: 15px 32px;
+
+  display: inline-block;
+  margin: 4px 2px;
+}
