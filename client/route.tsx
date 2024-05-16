@@ -3,12 +3,16 @@ import {
   createRoutesFromElements,
   Route,
 } from 'react-router-dom'
+import PokemonDetails from './components/PokemonDetails'
 import App from './components/App'
-import InfoPage from './components/InfoPage'
 
 const routes = createRoutesFromElements(
-  <>
-    <Route path="/" index element={<App />} />
-    <Route path="/pokemon:name" element={<InfoPage />} />
-  </>,
+  <Route path="/" element={<App />}>
+    <Route index element={<Home />} />
+    <Route path="pokemon/:name" element={<PokemonDetails />} />
+  </Route>,
 )
+
+const router = createBrowserRouter(routes)
+
+export default router
