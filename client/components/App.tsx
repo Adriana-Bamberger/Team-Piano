@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom'
 import ImgCard from './ImgCard.tsx'
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
     "
     >
       <h1>PokeMenu</h1>
-      <p>This is the start of our awesome website</p>
-      <ImgCard />
+      <p>Choose your starter ingredients</p>
+      <Outlet />
     </div>
   )
 }
