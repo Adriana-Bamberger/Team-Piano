@@ -2,14 +2,18 @@
   text-align: center;
   backdrop-filter: blur(3px);
 }
-
+.cards {
+  border-radius: 3%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
 img {
   width: 75%;
   height: auto;
   margin: 2em;
-  border-radius: 3%;
 }
-
+.logo {
+  width: 20%;
+}
 .flexbox-container {
   display: flex;
   flex-direction: row;
@@ -35,16 +39,26 @@ card-button {
   transition: filter 0.3s ease-in-out;
 }
 
-.pokemon-img:hover {
+.cards:hover {
   filter: brightness(150%);
 }
 
 .smallImg {
   width: 20%;
-  margin: -5%;
+  margin: -1%;
 }
 
 body {
-  background-image: url('/images/forest-background.png');
+  background-image: url('/images/newbg.png');
   background-size: 1500px;
+}
+
+.container {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  border: 3px;
 }

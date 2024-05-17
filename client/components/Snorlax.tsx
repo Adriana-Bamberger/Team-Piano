@@ -22,6 +22,13 @@ function Snorlax() {
       <div>
         <ul>
           <li>{snorlax.name}</li>
+          <section>
+            <h2>Stats:</h2>
+            <p>Weight: 460kgs</p>
+            <p>Protein: 20.1%</p>
+            <p>Fat: 56%</p>
+            <p>Calories: 740.6</p>
+          </section>
         </ul>
         <Link to="/">Home Page</Link>
       </div>

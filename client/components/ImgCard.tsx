@@ -3,27 +3,24 @@ import { Link } from 'react-router-dom'
 function ImgCard() {
   return (
     <>
+      <p>Choose your Pokémon!</p>
       <body></body>
       <div className="flexbox-container">
         <div className="flexbox-item">
           <Link to="pokemon/pikachu">
-            <img
-              src="./images/pikachu.png"
-              alt="Pikachu"
-              className="pokemon-img"
-            />
+            <img className="cards" src="./images/pikachu.png" alt="Pikachu" />
           </Link>
         </div>
 
         <div className="flexbox-item">
           <Link to="pokemon/snorlax">
-            <img src="./images/snorlax.png" className="pokemon-img" />
+            <img className="cards" src="./images/snorlax.png" />
           </Link>
         </div>
 
         <div className="flexbox-item">
           <Link to="pokemon/eevee">
-            <img src="./images/eevee.png" className="pokemon-img" />
+            <img className="cards" src="./images/eevee.png" />
           </Link>
         </div>
       </div>
