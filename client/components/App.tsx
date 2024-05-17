@@ -7,8 +7,7 @@ function App() {
       className="app
     "
     >
-      <h1>PokeMenu</h1>
-      <p>Choose your starter ingredients</p>
+      <img className="logo" src="../images/POKEMENU.png" />
       <Outlet />
     </div>
   )

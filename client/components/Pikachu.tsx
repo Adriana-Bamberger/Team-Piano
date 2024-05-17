@@ -39,7 +39,9 @@ function Pikachu() {
         <section>
           <h2>Moves: </h2>
           {data.moves.map(({ move }) => (
-            <p key={move.name}>{move.name}</p>
+            <p className="container" key={move.name}>
+              {move.name}
+            </p>
           ))}
         </section>
       </div>
