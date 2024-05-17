@@ -1,6 +1,6 @@
 // Imports
 import { useFetchPokemon } from '../apis/pokemon'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 
 function Pikachu() {
   const { name } = useParams()
@@ -18,7 +18,8 @@ function Pikachu() {
 
   if (data) {
     return (
-      <div>
+      <div className="wrapping">
+        <Link to="/">Home Page</Link>
         <h1>{name}</h1>
         <h2>Types: </h2>
         {data.types.map(({ type, slot }) => (

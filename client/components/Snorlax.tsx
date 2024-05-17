@@ -1,7 +1,7 @@
 // Imports
 import React from 'react'
 import { usePokemon } from '../apis/pokemon'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { Pokemon } from '../../models/pokemon'
 
 function Snorlax() {
@@ -23,6 +23,7 @@ function Snorlax() {
         <ul>
           <li>{snorlax.name}</li>
         </ul>
+        <Link to="/">Home Page</Link>
       </div>
     )
   }
