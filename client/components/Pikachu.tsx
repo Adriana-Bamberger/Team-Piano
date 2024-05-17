@@ -37,6 +37,18 @@ function Pikachu() {
           ))}
         </section>
         <section>
+          <h2>Stats:</h2>
+          <p>Weight: 100kgs</p>
+          <p>Protein: 100g</p>
+          <p>Fat: 100g</p>
+          <p>Calories: 100</p>
+          <p>
+            <u>
+              <b>good for gains fr</b>
+            </u>
+          </p>
+        </section>
+        <section>
           <h2>Moves: </h2>
           {data.moves.map(({ move }) => (
             <p className="container" key={move.name}>
