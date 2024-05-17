@@ -6,19 +6,23 @@ function ImgCard() {
       <div className="flexbox-container">
         <div className="flexbox-item">
           <Link to="pokemon/pikachu">
-            <img src="./images/pikachu.png" alt="Pikachu" />
+            <img
+              src="./images/pikachu.png"
+              alt="Pikachu"
+              className="pokemon-img"
+            />
           </Link>
         </div>
 
         <div className="flexbox-item">
           <Link to="pokemon/snorlax">
-            <img src="./images/snorlax.png" />
+            <img src="./images/snorlax.png" className="pokemon-img" />
           </Link>
         </div>
 
         <div className="flexbox-item">
           <Link to="pokemon/eevee">
-            <img src="./images/eevee.png" />
+            <img src="./images/eevee.png" className="pokemon-img" />
           </Link>
         </div>
       </div>

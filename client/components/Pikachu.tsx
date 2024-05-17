@@ -24,10 +24,10 @@ function Pikachu() {
         {data.types.map(({ type, slot }) => (
           <p key={slot}>{type.name}</p>
         ))}
-        <img
+        {/* <img
           src={data.sprites.front_default}
           alt={`Front Default Sprite for ${data.name}`}
-        />
+        /> */}
         <section>
           <h2>Abilities: </h2>
           {data.abilities.map(({ ability, slot }) => (
