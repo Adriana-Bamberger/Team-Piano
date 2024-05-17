@@ -31,12 +31,20 @@ card-button {
   display: inline-block;
   margin: 4px 2px;
 }
+.pokemon-img {
+  transition: filter 0.3s ease-in-out;
+}
+
+.pokemon-img:hover {
+  filter: brightness(150%);
+}
+
+.smallImg {
+  width: 20%;
+  margin: -5%;
+}
 
 body {
   background-image: url('/images/forest-background.png');
   background-size: 1500px;
-}
-
-.wrapping {
-  flex-wrap: wrap;
 }

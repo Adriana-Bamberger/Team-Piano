@@ -26,6 +26,7 @@ function Pikachu() {
           <p key={slot}>{type.name}</p>
         ))}
         <img
+          className="smallImg"
           src={data.sprites.front_default}
           alt={`Front Default Sprite for ${data.name}`}
         />
