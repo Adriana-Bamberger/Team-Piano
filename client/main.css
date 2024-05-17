@@ -39,3 +39,8 @@ card-button {
 .pokemon-img:hover {
   filter: brightness(150%);
 }
+
+.smallImg {
+  width: 20%;
+  margin: -5%;
+}
