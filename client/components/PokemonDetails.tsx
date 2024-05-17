@@ -20,7 +20,7 @@ function PokemonDetails() {
     return (
       <div>
         <ul>
-          <li></li>
+          <li>{data.name}</li>
         </ul>
         <Link to="/">Home Page</Link>
       </div>
