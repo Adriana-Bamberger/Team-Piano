@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 function ImgCard() {
   return (
     <>
+      <body></body>
       <div className="flexbox-container">
         <div className="flexbox-item">
           <Link to="pokemon/pikachu">

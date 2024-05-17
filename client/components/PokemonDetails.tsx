@@ -1,7 +1,7 @@
 // Imports
 import React from 'react'
 import { usePokemon } from '../apis/pokemon'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 function PokemonDetails() {
   const { name } = useParams
@@ -22,6 +22,7 @@ function PokemonDetails() {
         <ul>
           <li>{data.name}</li>
         </ul>
+        <Link to="/">Home Page</Link>
       </div>
     )
 }
